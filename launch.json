@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug iOS",
+        "program": "${workspaceFolder}/.vscode",
+        "request": "launch",
+        "type": "reactnative",
+        "platform": "ios"
+      },
+      {
+        "name": "Debug iOS Simulator",
+        "program": "${workspaceFolder}/.vscode",
+        "request": "launch",
+        "type": "reactnative",
+        "platform": "ios-simulator"
+      },
+      {
+        "name": "Debug iOS Device",
+        "program": "${workspaceFolder}/.vscode",
+        "request": "launch",
+        "type": "reactnative",
+        "platform": "ios-device"
+      },
+      {
+        "name": "Debug Android Emulator",
+        "program": "${workspaceFolder}/.vscode",
+        "request": "launch",
+        "type": "reactnative",
+        "platform": "android-emulator"
+      },
+      {
+        "name": "Debug Android",
+        "program": "${workspaceFolder}/.vscode",
+        "request": "launch",
+        "type": "reactnative",
+        "platform": "android"
+      }
+    ]
+  }
+  
